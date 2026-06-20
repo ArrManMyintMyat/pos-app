@@ -42,7 +42,7 @@ jobs:
       - name: Checkout Kustomize chart Repository
         uses: actions/checkout@v3
         with:
-          repository: ArrManMyintMyat/workshop-apps
+          repository: arrmanmyintmyat/workshop-apps
           path: deployment
           token: ${{ secrets.MY_GITHUB_TOKEN }}
 
